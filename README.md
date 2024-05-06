@@ -1,6 +1,6 @@
 # Forge.TransactionHandler
 
-![image](Designer.png)
+![image](logo.png)
 
 ## Quickstart 
 

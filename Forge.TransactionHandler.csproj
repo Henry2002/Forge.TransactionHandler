@@ -16,10 +16,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\Downloads\Designer.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
     <None Include="..\..\..\source\repos\Henry2002\Forge.TransactionHandler\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
