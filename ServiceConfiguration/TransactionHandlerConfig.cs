@@ -16,11 +16,11 @@ public sealed class TransactionHandlerConfig
     }
     public TransactionHandlerConfig HandleTransactionGroup(
         string groupName,
-        Func<TransactionHandlerGroupConfig, TransactionHandlerGroupConfig>? builder = null)
+        Action<TransactionHandlerGroupConfig>? config = null)
     {
         var groupConfig = new TransactionHandlerGroupConfig(groupName);
 
-        builder?.Invoke(groupConfig);
+        config?.Invoke(groupConfig);
 
         GroupConfigurations[groupName] = groupConfig;
 
